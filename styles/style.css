@@ -44,7 +44,6 @@ body {
 .header_modify {
   max-width: 1060px;
   margin: 0 auto;
-  border: 1px solid forestgreen;
 }
 .navbar {
   display: flex;
@@ -70,6 +69,7 @@ body {
   /* gap: 20px; */
   height: 100%;
   border-radius: 20px;
+  padding-right: 20px;
 }
 .nav_items ul > li:nth-child(1) a {
   background-color: #e6533c;
@@ -88,18 +88,24 @@ body {
 
 /* banner starts  */
 .banner{
-  margin-top: 100px;
-  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 .banner_content {
+  height: 200px;
   width: 50%;
+  height: 500px;
   display:flex;
   flex-direction: column;
   row-gap: 30px;
+  justify-content: center;
+  border: 1px solid gainsboro;
 }
 .banner_content h1 {
   color: #ffffff;
   font-family: Inter;
+  /* font-size: 400%; */
   font-size: 70px;
   font-weight: 900;
   line-height: 120%;
@@ -116,5 +122,16 @@ body {
 }
 .banner_img {
   width: 50%;
+  border: 1px solid gainsboro;
+  padding-left: 70px;
+
+}
+.banner_img1{
+  height: 568px;
+}
+.banner_img1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 /* banner ends  */
