@@ -9,17 +9,34 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.primary_title {
+/* .primary_title {
 }
 .primary_description {
 }
 .primary-btn {
-}
+} */
 .primary_container {
   max-width: 1440px;
+  height: 500px;
   margin: 0 auto;
   background-color: #000000;
+  border: 1px solid green;
 }
-.secondary_container {
-}
+/* .secondary_container {
+} */
 /* Basic styles ends  */
+
+/* navbar starts  */
+.nav_banner{
+  background: linear-gradient();
+  height: 715px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav_items{
+  background-color: rebeccapurple;
+}
+/* navbar ends  */
