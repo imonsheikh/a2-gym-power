@@ -9,16 +9,25 @@
 body {
   font-family: "Inter", sans-serif;
 }
-/* .primary_title {
+.primary_title {
 }
 .primary_description {
+  color: #8C8C8C;
 }
-.primary-btn {
-} */
+.primary_btn {
+  width: 200px;
+  height: 54px;
+  background-color: #e6533c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 1px solid #FFFFFF;
+}
 .primary_container {
   max-width: 1440px;
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   margin: 0 auto;
   background-color: #000000;
   border: 1px solid green;
@@ -28,33 +37,30 @@ body {
 /* Basic styles ends  */
 
 /* navbar starts  */
-.nav_banner{
-  background: linear-gradient(
-    to bottom,
-    #121212,
-    #202020,
-    #000000
-  );
+.nav_banner {
+  background: linear-gradient(to bottom, #121212, #202020, #000000);
   height: 715px;
-  
 }
-.navbar{
+.header_modify {
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px solid forestgreen;
+}
+.navbar {
   display: flex;
   justify-content: space-between;
   height: 46px;
-  border: 1px solid green;
-  max-width: 1060px;
   margin: 50px auto;
-
+  max-width: 1060px;
 }
-.nav_title{
+.nav_title {
   color: rgb(230, 83, 60);
-font-size: 36px;
-font-weight: 800;
-font-style: italic;
+  font-size: 36px;
+  font-weight: 800;
+  font-style: italic;
 }
 
-.nav_items ul{
+.nav_items ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,22 +70,51 @@ font-style: italic;
   /* gap: 20px; */
   height: 100%;
   border-radius: 20px;
-  
 }
-.nav_items ul>li:nth-child(1) a{
-  background-color: #E6533C;
+.nav_items ul > li:nth-child(1) a {
+  background-color: #e6533c;
   padding: 6px 20px;
   border-radius: 50px;
   margin: 5px;
-
-  
 }
-.nav_items ul li a{
+.nav_items ul li a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  
 }
 /* navbar ends  */
+
+/* banner starts  */
+.banner{
+  margin-top: 100px;
+  border: 1px solid green;
+}
+.banner_content {
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.banner_content h1 {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner_btns{
+  display: flex;
+  gap: 20px;
+}
+.banner_btns>button:nth-child(2){
+  background-color: transparent;
+}
+.banner_img {
+  width: 50%;
+}
+/* banner ends  */
