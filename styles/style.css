@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* Basic styles starts  */
 * {
@@ -9,7 +9,17 @@
 body {
   font-family: "Inter", sans-serif;
 }
+.primary_heading{
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
 .primary_title {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.secondary_title{
+  color: #ffffff;
 }
 .primary_description {
   color: #8c8c8c;
@@ -32,7 +42,10 @@ body {
   /* height: 500px; */
   margin: 0 auto;
   background-color: #000000;
-  border: 4px solid rgb(71, 10, 131);
+}
+.inner_width {
+  max-width: 1060px;
+  margin: 0 auto;
 }
 /* .secondary_container {
 } */
@@ -47,8 +60,11 @@ body {
      #121212 
      );
   height: 715px;
+  padding-top: 60px;
+  
+
 }
-.header_modify {
+.inner_width {
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -56,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 46px;
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 1060px;
 }
 .nav_title {
@@ -118,9 +134,8 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
-
 .banner_content span{
-  font-family: cursive;
+  font-family: "Dancing Script", cursive;
 }
 .banner_btns {
   display: flex;
@@ -135,12 +150,13 @@ body {
   position: relative;
 }
 .banner_img1 {
-  height: 567px;
+  height: 620px;
 }
 .banner_img1 img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  height: 609px;
 }
 .glass_card1 {
   width: 193px;
@@ -197,3 +213,26 @@ color: #ffffff;
 font-size: 24px;
 }
 /* banner ends  */
+
+/* change your habit starts   */
+.change_your_habit{
+  /* border: 1px solid ghostwhite; */
+  height: 452px;
+}
+.change_cards{
+  display: flex;
+  justify-content: space-between;
+}
+.change_card{
+text-align: center;
+width: 20%;
+
+}
+.change_card img{
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 500px;
+  border: 4px solid #434343;
+  margin-bottom: 20px;
+}
+/* change your habit ends   */
