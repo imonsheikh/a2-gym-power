@@ -271,7 +271,6 @@ body {
 } */
 .training_and_extra {
   height: 581px;
-  border: 1px solid gainsboro;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -283,17 +282,39 @@ body {
   grid-template-columns: repeat(24, 1fr);
   grid-template-rows: repeat(24, 1fr);
   /* gap: 10px; */
-  color: #d70f58;
+  color: #ffffff;
   border: 1px solid green;
+}
+.training_heading h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900; 
+  margin-bottom: 17px;
+}
+.grid_training > div {
+  padding: 20px;
 }
 .grid_img_1 {
   grid-column: 1 / span 5;
   grid-row: 1 / span 12;
   background: url("../images/exercise1.jpg");
+  background-color: rgba(6, 255, 210, 0.5);
+
+  /* background-blend-mode: lighten; */
+  /* background-blend-mode: overlay; */
+  /* background-blend-mode: luminosity; */
+  /* background-blend-mode: multiply;  */
+  /* background-blend-mode: screen;  */
+  background-blend-mode: soft-light;
+  /* opacity: 0.5; */
+
+  /* opacity: 0.6; */
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: left;
+  align-content: end;
 }
 .grid_img_2 {
   grid-column: 6 / span 13;
@@ -302,44 +323,60 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 5px solid green;
+
+  background-color: rgba(255, 0, 0, 0.3);
+  background-blend-mode: soft-light;
 }
 .grid_img_3 {
-  grid-column: 19/ span 6;
+  grid-column: 19 / span 6;
   grid-row: 1 / span 12;
   background: url("../images/exercise3.png");
-  border: 5px solid gold;
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  align-content: end;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: soft-light;
 }
 .grid_img_4 {
-  grid-column: 1 / span 11;
+  grid-column: 1 / span 10;
   grid-row: 13 / span 25;
   background: url("../images/exercise4.png");
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: soft-light;
 }
 .grid_img_5 {
   grid-column: 11 / span 6;
   grid-row: 13 / span 25;
   background: url("../images/exercise5.jpg");
-  border: 5px solid red;
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  align-content: end;
+  background-color: rgba(66, 255, 0, 0.3);
+  background-blend-mode: soft-light;
 }
 .grid_img_6 {
-  grid-column:17 / span 8;
+  grid-column: 17 / span 8;
   grid-row: 13 / span 25;
   background: url("../images/exercise6.jpg");
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  align-content: end;
+  background-color: rgba(0, 71, 255, 0.3);
+  background-blend-mode: soft-light;
 }
 /* Training and Extra section ends here */
