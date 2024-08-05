@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Basic styles starts  */
 * {
@@ -9,7 +9,7 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.primary_heading{
+.primary_heading {
   margin: 0 auto;
   text-align: center;
   padding: 50px;
@@ -18,7 +18,7 @@ body {
   color: #ffffff;
   font-size: 2rem;
 }
-.secondary_title{
+.secondary_title {
   color: #ffffff;
 }
 .primary_description {
@@ -53,16 +53,9 @@ body {
 
 /* navbar starts  */
 .nav_banner {
-  background: linear-gradient(
-    to top,
-    #000000,
-    #434343,
-     #121212 
-     );
+  background: linear-gradient(to top, #000000, #434343, #121212);
   height: 715px;
   padding-top: 60px;
-  
-
 }
 .inner_width {
   max-width: 1060px;
@@ -134,7 +127,7 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
-.banner_content span{
+.banner_content span {
   font-family: "Dancing Script", cursive;
 }
 .banner_btns {
@@ -200,35 +193,33 @@ body {
   align-items: center;
   justify-content: center;
   gap: 15px;
-
 }
-.glass_card2 .red_ball{
+.glass_card2 .red_ball {
   height: 40px;
   width: 40px;
-  background-color: #E6533C;
+  background-color: #e6533c;
   border-radius: 50px;
 }
-.glass_card2>div:last-child h2{
-color: #ffffff;
-font-size: 24px;
+.glass_card2 > div:last-child h2 {
+  color: #ffffff;
+  font-size: 24px;
 }
 /* banner ends  */
 
 /* change your habit starts   */
-.change_your_habit{
+.change_your_habit {
   /* border: 1px solid ghostwhite; */
   height: 452px;
 }
-.change_cards{
+.change_cards {
   display: flex;
   justify-content: space-between;
 }
-.change_card{
-text-align: center;
-width: 20%;
-
+.change_card {
+  text-align: center;
+  width: 20%;
 }
-.change_card img{
+.change_card img {
   width: 100%;
   /* height: 100%; */
   border-radius: 500px;
@@ -236,3 +227,119 @@ width: 20%;
   margin-bottom: 20px;
 }
 /* change your habit ends   */
+
+/* run an extra starts  */
+.run_an_extra_section {
+  padding: 100px 0;
+}
+.run_an_extra {
+  background-color: #222222;
+  display: flex;
+
+  gap: 20px;
+  height: 371px;
+  padding: 35px;
+  border-radius: 15px;
+}
+.run_content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.run_content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+}
+.run_img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.run_img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+/* run an extra ends  */
+
+/* Training and Extra section starts here */
+/* .training_and_extra_section{
+
+} */
+.training_and_extra {
+  height: 581px;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid_training {
+  height: 400px;
+  width: 1060px;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  /* gap: 10px; */
+  color: #d70f58;
+  border: 1px solid green;
+}
+.grid_img_1 {
+  grid-column: 1 / span 5;
+  grid-row: 1 / span 12;
+  background: url("../images/exercise1.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid_img_2 {
+  grid-column: 6 / span 13;
+  grid-row: 1 / span 12;
+  background: url("../images/exercise2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 5px solid green;
+}
+.grid_img_3 {
+  grid-column: 19/ span 6;
+  grid-row: 1 / span 12;
+  background: url("../images/exercise3.png");
+  border: 5px solid gold;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid_img_4 {
+  grid-column: 1 / span 11;
+  grid-row: 13 / span 25;
+  background: url("../images/exercise4.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid_img_5 {
+  grid-column: 11 / span 6;
+  grid-row: 13 / span 25;
+  background: url("../images/exercise5.jpg");
+  border: 5px solid red;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid_img_6 {
+  grid-column:17 / span 8;
+  grid-row: 13 / span 25;
+  background: url("../images/exercise6.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Training and Extra section ends here */
