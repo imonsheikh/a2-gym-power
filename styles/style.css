@@ -32,7 +32,7 @@ body {
   /* height: 500px; */
   margin: 0 auto;
   background-color: #000000;
-  border: 1px solid green;
+  border: 4px solid rgb(71, 10, 131);
 }
 /* .secondary_container {
 } */
@@ -40,7 +40,12 @@ body {
 
 /* navbar starts  */
 .nav_banner {
-  background: linear-gradient(to bottom, #121212, #202020, #000000);
+  background: linear-gradient(
+    to top,
+    #000000,
+    #434343,
+     #121212 
+     );
   height: 715px;
 }
 .header_modify {
@@ -102,7 +107,6 @@ body {
   flex-direction: column;
   row-gap: 30px;
   justify-content: center;
-  border: 1px solid gainsboro;
 }
 .banner_content h1 {
   color: #ffffff;
@@ -115,6 +119,9 @@ body {
   text-align: left;
 }
 
+.banner_content span{
+  font-family: cursive;
+}
 .banner_btns {
   display: flex;
   gap: 20px;
@@ -124,11 +131,11 @@ body {
 }
 .banner_img {
   width: 50%;
-  border: 1px solid gainsboro;
   padding-left: 70px;
+  position: relative;
 }
 .banner_img1 {
-  height: 568px;
+  height: 567px;
 }
 .banner_img1 img {
   width: 100%;
@@ -147,7 +154,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
+
+  position: absolute;
+  top: 135px;
+  left: 365px;
 }
 .glass_card1 h1 {
   color: #ffffff;
@@ -157,4 +168,32 @@ body {
   /* justify-self: start; */
 }
 
+.glass_card2 {
+  position: absolute;
+  top: 400px;
+  left: 4px;
+
+  width: 205px;
+  height: 95px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(30px);
+  background: rgba(48, 48, 48, 0.54);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+}
+.glass_card2 .red_ball{
+  height: 40px;
+  width: 40px;
+  background-color: #E6533C;
+  border-radius: 50px;
+}
+.glass_card2>div:last-child h2{
+color: #ffffff;
+font-size: 24px;
+}
 /* banner ends  */
