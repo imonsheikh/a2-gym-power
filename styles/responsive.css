@@ -132,5 +132,29 @@
   .meet_img{
     width: 100%;
   }
+   
+
+  /* book class  */
+  .book_class{
+    grid-template-columns: 1fr;
+  }
+
+
+  /* footer  */
+  .foot_content, .foot_content1{
+    width: 100%;
+  }
+  .foot_fitness{
+    flex-direction: column;
+    row-gap: 3rem;
+    padding-top: 40px;
+  }
+  .foot_end p{
+    text-align: left;
+    width: 90%;
+  }
+  .foot_end hr{
+    width: 90%;
+  }
 
 }

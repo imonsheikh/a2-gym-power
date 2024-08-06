@@ -571,12 +571,13 @@ margin-bottom: 1rem;
 
 /* Footer section starts here */
 footer{
-  height: 490px;
+  min-height: 490px;
 }
+
 .foot_fitness {
   display: flex;
   justify-content: space-between;
-  height: 310px;
+  min-height: 310px;
   align-items: center;
 }
 .foot_content1 {
@@ -609,4 +610,6 @@ footer{
   background: rgba(255, 255, 255, 0.1);
   opacity: 30%;
 }
+
+
 /* Footer section starts ends */
