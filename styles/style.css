@@ -407,10 +407,13 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .bmi_charts {
   width: 29%;
   height: 320px;
+  margin-bottom: 65px;
+  border: 1px solid gainsboro;
 }
 .calculate_bmi {
   width: 54%;
@@ -429,6 +432,7 @@ td {
   color: rgba(255, 255, 255, 0.5);
   padding: 15px;
   text-align: left;
+  
 }
 .table_data th {
   color: #ffffff;
@@ -438,5 +442,37 @@ td {
   font-size: 28px;
   font-weight: 900;
   margin-bottom: 18%;
+}
+
+ 
+
+.calculate_bmi{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+} 
+.calculate_bmi h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.bmi_forms input, select{
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  /* width: 47%; */
+  width: 48%;
+  margin: 3px;
+}
+.bmi_forms ::placeholder{
+  color: rgba(255, 255, 255, 0.6);
+}
+.bmi_full_select select{
+  width: 98%;
 }
 /* BMI Calculator section ends  */
