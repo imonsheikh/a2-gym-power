@@ -255,7 +255,7 @@ body {
   display: flex;
 
   gap: 20px;
-  height: 371px;
+  min-height: 371px;
   padding: 35px;
   border-radius: 15px;
 }
@@ -284,6 +284,7 @@ body {
 /* run an extra ends  */
 
 /* Training and Extra section starts here */
+
 /* .training_and_extra_section{
 
 } */

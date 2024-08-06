@@ -69,4 +69,20 @@
         margin: 0 auto;
        }
 
+       /* run and extra  */
+       .run_an_extra{
+        flex-direction: column;
+       }
+       .run_content{
+        width: 100%;
+        row-gap: 25px;
+       }
+       .run_img{
+        width: 100%;
+       }
+       .run_btn{
+        width: 100%;
+       }
+
+
     }
