@@ -4,7 +4,48 @@
 } */
 
 /* For Mobiles  */
-/* @media screen and (max-width: 500px){
-    
-} */
+@media only  screen and (max-width: 600px){
 
+    .menu_bar{
+        display: block;
+      }
+
+      .nav_items ul{
+        display: none;
+      }
+
+      .banner_content h1 {
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 900;      
+      }
+      .banner_content p{
+        width: 90%;
+      }
+
+      .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* gap: 30px; */
+      }
+
+      .primary_btn {
+        color: #ffffff;
+        font-size: 15px;
+       
+      }
+
+      .inner_width{
+       max-width: 90%;
+        border: 1px solid green;
+      }
+      .banner_content{
+        width: 100%;
+      }
+      .banner_img{
+        width: 100%;
+      }
+
+
+    }
