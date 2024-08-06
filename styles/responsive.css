@@ -17,7 +17,6 @@
       .banner_content h1 {
         font-family: Inter;
         font-size: 60px;
-        font-weight: 900;      
       }
       .banner_content p{
         width: 90%;
@@ -38,7 +37,7 @@
 
       .inner_width{
        max-width: 90%;
-        border: 1px solid green;
+        /* border: 1px solid green; */
       }
       .banner_content{
         width: 100%;
@@ -46,6 +45,28 @@
       .banner_img{
         width: 100%;
       }
+       .glass_card1{
+        left: 230px;
+        top: 20px;
+       }
+       .glass_card2{
+        top: 250px;
+       }
 
+       /* change your habit  */
+       .primary_heading{
+        width: 90%;
+       }
+       .primary_heading h1{
+        font-size: 32px;
+       }
+       .change_cards{
+        flex-direction: column;
+        row-gap: 85px;
+       }
+       .change_card{
+        width: 60%;
+        margin: 0 auto;
+       }
 
     }

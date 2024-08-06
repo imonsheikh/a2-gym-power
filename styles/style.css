@@ -158,7 +158,7 @@ body {
   width: 45%;
   /* padding-left: 70px; */
   position: relative;
-  border: 1px solid gainsboro;
+  /* border: 1px solid gainsboro; */
 }
 .banner_img1 {
   height: 620px;
@@ -227,7 +227,7 @@ body {
 /* change your habit starts   */
 .change_your_habit {
   /* border: 1px solid ghostwhite; */
-  height: 452px;
+  min-height: 452px;
 }
 .change_cards {
   display: flex;
