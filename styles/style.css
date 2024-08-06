@@ -43,12 +43,17 @@ body {
   margin: 0 auto;
   background-color: #000000;
 }
+.secondary_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(34, 34, 34);
+}
 .inner_width {
-  max-width: 1060px;
+  max-width: 74%;
   margin: 0 auto;
 }
-/* .secondary_container {
-} */
+
 /* Basic styles ends  */
 
 /* navbar starts  */
@@ -57,10 +62,10 @@ body {
   height: 715px;
   padding-top: 60px;
 }
-.inner_width {
-  max-width: 1060px;
+/* .inner_width {
+  max-width: 74%;
   margin: 0 auto;
-}
+} */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -110,7 +115,7 @@ body {
 }
 .banner_content {
   height: 200px;
-  width: 50%;
+  width: 45%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -138,9 +143,10 @@ body {
   background-color: transparent;
 }
 .banner_img {
-  width: 50%;
+  width: 45%;
   padding-left: 70px;
   position: relative;
+  border: 1px solid gainsboro;
 }
 .banner_img1 {
   height: 620px;
@@ -288,7 +294,7 @@ body {
 .training_heading h1 {
   font-family: Inter;
   font-size: 48px;
-  font-weight: 900; 
+  font-weight: 900;
   margin-bottom: 17px;
 }
 .grid_training > div {
@@ -380,3 +386,57 @@ body {
   background-blend-mode: soft-light;
 }
 /* Training and Extra section ends here */
+
+/* BMI Calculator section starts  */
+.bmi_heading {
+  border: 1px solid green;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.bmi_heading h1 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.bmi_calculator {
+  border: 1px solid gainsboro;
+  height: 487px;
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bmi_charts {
+  width: 29%;
+  height: 320px;
+}
+.calculate_bmi {
+  width: 54%;
+  height: 386px;
+  border: 1px solid gray;
+}
+.table_data {
+  width: 100%;
+}
+
+.table_data,
+.table_data th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  text-align: left;
+}
+.table_data th {
+  color: #ffffff;
+}
+.bmi_charts h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 18%;
+}
+/* BMI Calculator section ends  */
