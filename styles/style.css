@@ -536,6 +536,9 @@ select {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding-bottom: 5rem;
+  /* align-items: center; */
+  /* min-height: 300px; */
+  border: 1px solid greenyellow;
 }
 .class_img{
   position: relative;

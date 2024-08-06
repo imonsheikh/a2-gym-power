@@ -137,6 +137,12 @@
   /* book class  */
   .book_class{
     grid-template-columns: 1fr;
+    height: 900px;
+    align-items: end;
+    padding: 20px 10px;
+  }
+  .class_img_2{
+    top: -140px;
   }
 
 
