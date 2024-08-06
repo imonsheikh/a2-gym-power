@@ -126,6 +126,11 @@
   }
 
   /* meet our team  */
-  
+  .meet_gallary{
+    flex-direction: column;
+  }
+  .meet_img{
+    width: 100%;
+  }
 
 }

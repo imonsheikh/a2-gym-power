@@ -302,7 +302,7 @@ body {
   grid-template-rows: repeat(24, 1fr);
   /* gap: 10px; */
   color: #ffffff;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .training_heading{
   text-align: center;
@@ -407,7 +407,7 @@ body {
 
 /* BMI Calculator section starts  */
 .bmi_heading {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 50%;
   margin: 0 auto;
   padding: 50px 0;
@@ -500,7 +500,7 @@ select {
 }
 .meet_gallary {
   background-color: rgba(255, 255, 255, 0.1);
-  height: 604px;
+  min-height: 604px;
   display: flex;
   flex-wrap: wrap;
   /* gap: 10px; */
@@ -510,7 +510,7 @@ select {
 .meet_img {
   width: 33.33%;
   /* height: 300px; */
-  height: 50%;
+  /* height: 10%; */
   padding: 8px;
   position: relative;
 }
