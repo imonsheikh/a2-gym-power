@@ -289,13 +289,13 @@ body {
 
 } */
 .training_and_extra {
-  height: 581px;
+  min-height: 581px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .grid_training {
-  height: 400px;
+  min-height: 400px;
   width: 1060px;
   display: grid;
   grid-template-columns: repeat(24, 1fr);
@@ -419,26 +419,26 @@ body {
   margin-bottom: 10px;
 }
 .bmi_calculator {
-  border: 1px solid gainsboro;
-  height: 487px;
+  /* border: 1px solid gainsboro; */
+  min-height: 487px;
   width: 74%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.bmi_width {
-  border: 2px solid gray;
-}
+/* .bmi_width {
+ border: 2px solid gray; 
+} */
 .bmi_charts {
   width: 29%;
-  height: 320px;
+  min-height: 320px;
   margin-bottom: 65px;
 }
 .calculate_bmi {
   width: 54%;
-  height: 386px;
-  border: 1px solid gray;
+  min-height: 386px;
+  /* border: 1px solid gray; */
 }
 .table_data {
   width: 100%;
@@ -460,7 +460,7 @@ td {
   color: #ffffff;
   font-size: 28px;
   font-weight: 900;
-  margin-bottom: 18%;
+  margin-bottom: 30px;
 }
 
 .calculate_bmi {
@@ -484,7 +484,7 @@ select {
   border-radius: 10px;
   /* width: 47%; */
   width: 48%;
-  margin: 3px;
+  margin: 5px 3px;
 }
 .bmi_forms ::placeholder {
   color: rgba(255, 255, 255, 0.6);

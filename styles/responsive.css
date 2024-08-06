@@ -4,85 +4,128 @@
 } */
 
 /* For Mobiles  */
-@media only  screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+  .menu_bar {
+    display: block;
+  }
 
-    .menu_bar{
-        display: block;
-      }
+  .nav_items ul {
+    display: none;
+  }
 
-      .nav_items ul{
-        display: none;
-      }
+  .banner_content h1 {
+    font-family: Inter;
+    font-size: 60px;
+  }
+  .banner_content p {
+    width: 90%;
+  }
 
-      .banner_content h1 {
-        font-family: Inter;
-        font-size: 60px;
-      }
-      .banner_content p{
-        width: 90%;
-      }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 30px; */
+  }
 
-      .banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* gap: 30px; */
-      }
+  .primary_btn {
+    color: #ffffff;
+    font-size: 15px;
+  }
 
-      .primary_btn {
-        color: #ffffff;
-        font-size: 15px;
-       
-      }
+  .inner_width {
+    max-width: 90%;
+    /* border: 1px solid green; */
+  }
+  .banner_content {
+    width: 100%;
+  }
+  .banner_img {
+    width: 100%;
+  }
+  .glass_card1 {
+    left: 230px;
+    top: 20px;
+  }
+  .glass_card2 {
+    top: 250px;
+  }
 
-      .inner_width{
-       max-width: 90%;
-        /* border: 1px solid green; */
-      }
-      .banner_content{
-        width: 100%;
-      }
-      .banner_img{
-        width: 100%;
-      }
-       .glass_card1{
-        left: 230px;
-        top: 20px;
-       }
-       .glass_card2{
-        top: 250px;
-       }
+  /* change your habit  */
+  .primary_heading {
+    width: 90%;
+  }
+  .primary_heading h1 {
+    font-size: 32px;
+  }
+  .change_cards {
+    flex-direction: column;
+    row-gap: 85px;
+  }
+  .change_card {
+    width: 60%;
+    margin: 0 auto;
+  }
 
-       /* change your habit  */
-       .primary_heading{
-        width: 90%;
-       }
-       .primary_heading h1{
-        font-size: 32px;
-       }
-       .change_cards{
-        flex-direction: column;
-        row-gap: 85px;
-       }
-       .change_card{
-        width: 60%;
-        margin: 0 auto;
-       }
+  /* run and extra  */
+  .run_an_extra {
+    flex-direction: column;
+  }
+  .run_content {
+    width: 100%;
+    row-gap: 25px;
+  }
+  .run_img {
+    width: 100%;
+  }
+  .run_btn {
+    width: 100%;
+  }
 
-       /* run and extra  */
-       .run_an_extra{
-        flex-direction: column;
-       }
-       .run_content{
-        width: 100%;
-        row-gap: 25px;
-       }
-       .run_img{
-        width: 100%;
-       }
-       .run_btn{
-        width: 100%;
-       }
+  /* training and exercise  */
+  .training_heading, .bmi_heading{
+    width: 90%;
+  }
+  .run_content h1,
+  .training_heading h1,
+  .bmi_heading h1{
+    font-size: 40px;
+    width: 80%;
+  }
+  .grid_training {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid_img_1,
+  .grid_img_2,
+  .grid_img_3,
+  .grid_img_4,
+  .grid_img_5,
+  .grid_img_6 {
+    grid-column: 1 /span 24;
+  }
 
+  /* bmi calculator  */
+  .bmi_calculator{
+    flex-direction: column;
+    width: 90%;
+  }
+   
+  .bmi_charts, .calculate_bmi{
+    width: 100%;
+    text-align: start;
+    text-align: left;
+    justify-content: start;
+  }
+  .bmi_charts h2{
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .calculate_bmi{
+    row-gap: 15px;
+  }
 
-    }
+  /* meet our team  */
+  
+
+}
