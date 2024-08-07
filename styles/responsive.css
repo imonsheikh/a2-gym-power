@@ -99,29 +99,29 @@
   } */
   .grid_img_1 {
     grid-column: 1 / span 12;
-    /* grid-row: 1 / span 8; */
+    grid-row: 1 / span 8;
 
   }
   .grid_img_2 {
-    grid-column: 13/ 12;
-    /* grid-row: 1 / span 8; */
+    grid-column: 13/ span 12;
+    grid-row: 1 / span 8;
 
   }
   .grid_img_3 {
     grid-column: 1 / span 12;
-    /* grid-row: 9 / span 8; */
+    grid-row: 9 / span 8;
   }
   .grid_img_4 {
     grid-column: 13 / span 12;
-    /* grid-row: 9 / span 8; */
+    grid-row: 9 / span 8;
   }
   .grid_img_5 {
     grid-column: 1 / span 12;
-    /* grid-row: 17 / span 8; */
+    grid-row: 17 / span 8;
   }
   .grid_img_6 {
     grid-column: 13 / span 12;
-    /* grid-row: 17/ span 8; */
+    grid-row: 17/ span 8;
   }
 
   /* bmi calculator  */
