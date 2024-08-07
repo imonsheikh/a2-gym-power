@@ -4,7 +4,7 @@
 } */
 
 /* For Mobiles  */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .menu_bar {
     display: block;
   }
@@ -93,34 +93,35 @@
     font-size: 40px;
     width: 80%;
   }
-  .grid_training {
+  /* .grid_training {
     width: 100%;
-  }
+    height: 1000px;
+  } */
   .grid_img_1 {
     grid-column: 1 / span 12;
-    grid-row: 1 / span 12;
+    /* grid-row: 1 / span 8; */
 
-    border: 2px solid gold;
   }
   .grid_img_2 {
     grid-column: 13/ 12;
-    grid-row: 13/ 12;
+    /* grid-row: 1 / span 8; */
+
   }
   .grid_img_3 {
     grid-column: 1 / span 12;
-    grid-row: 1 / span 12;
+    /* grid-row: 9 / span 8; */
   }
   .grid_img_4 {
     grid-column: 13 / span 12;
-    grid-row: 13 / span 12;
+    /* grid-row: 9 / span 8; */
   }
   .grid_img_5 {
     grid-column: 1 / span 12;
-    grid-row: 1 / span 12;
+    /* grid-row: 17 / span 8; */
   }
   .grid_img_6 {
     grid-column: 13 / span 12;
-    grid-row: 13 / span 12;
+    /* grid-row: 17/ span 8; */
   }
 
   /* bmi calculator  */
