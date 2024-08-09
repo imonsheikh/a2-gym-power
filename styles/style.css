@@ -144,8 +144,9 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
-.banner_content span {
+.banner_content .shape {
   font-family: "Dancing Script", cursive;
+  /* font-family: 'Miami'; */
 }
 .banner_btns {
   display: flex;
@@ -278,7 +279,9 @@ body {
 }
 .run_img img {
   width: 100%;
-  object-fit: cover;
+  object-fit: none;
+  object-position: 72% 31%;
+  zoom: 56%;
   border-radius: 15px;
 }
 /* run an extra ends  */
