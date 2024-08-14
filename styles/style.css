@@ -109,7 +109,7 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
-.menu_bar{
+.menu_bar, .play_btn{
   color: #ffffff;
   font-size: 25px;
   display: flex;
