@@ -56,8 +56,8 @@
     width: 100%;
   }
   .glass_card1 {
-    left: 230px;
-    top: 20px;
+    right: 0;
+    top: 2px;
   }
   .glass_card2 {
     top: 250px;
@@ -156,6 +156,12 @@
   .calculate_bmi {
     row-gap: 15px;
   }
+  .bmi_forms input,
+select {
+
+
+  width: 100%;
+}
 
   /* meet our team  */
   .meet_gallary {

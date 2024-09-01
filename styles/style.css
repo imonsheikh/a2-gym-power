@@ -159,7 +159,7 @@ body {
   width: 45%;
   /* padding-left: 70px; */
   position: relative;
-  /* border: 1px solid gainsboro; */
+  border: 1px solid gainsboro;
 }
 .banner_img1 {
   height: 620px;
@@ -170,7 +170,7 @@ body {
   object-fit: contain;
   height: 609px;
 }
-.glass_card1 {
+.glass_card1{
   width: 193px;
   height: 98px;
   display: grid;
@@ -186,7 +186,8 @@ body {
 
   position: absolute;
   top: 135px;
-  left: 310px;
+  /* left: 310px; */
+  right: 0;
 }
 .glass_card1 h1 {
   color: #ffffff;
